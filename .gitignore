@@ -281,3 +281,7 @@ dmypy.json
 cython_debug/
 
 !/.gitignore
+.Rproj.user
+project.Rproj
+*.Rproj
+renv/

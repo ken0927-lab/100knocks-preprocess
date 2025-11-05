@@ -290,4 +290,8 @@ renv/
 .Rhistory
 .Rprofile.user
 
+notebook/
+docs/
+_export/
+
 !/.gitignore

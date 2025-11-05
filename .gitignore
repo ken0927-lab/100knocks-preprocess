@@ -280,8 +280,14 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-!/.gitignore
+# R / RStudio Settings
+# RStudio ユーザー固有のデータは無視
 .Rproj.user
-project.Rproj
-*.Rproj
+# R プロジェクトの環境（パッケージの実体）は無視
 renv/
+# RStudio Serverの一時ファイルも無視
+.Rdata
+.Rhistory
+.Rprofile.user
+
+!/.gitignore

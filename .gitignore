@@ -294,4 +294,6 @@ notebook/
 docs/
 _export/
 
+.yml
+
 !/.gitignore
